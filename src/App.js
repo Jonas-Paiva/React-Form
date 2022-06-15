@@ -1,4 +1,3 @@
-import './App.css';
 import Forms from './componets/Formulario.js';
 import BoxCadastro from './componets/BoxCadastro.js';
 

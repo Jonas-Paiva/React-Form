@@ -1,29 +1,10 @@
-import './BoxCadastro.css';
+import './Componets.css';
+import Card from './Card';
 
 function BoxCadastro() {
 	return (
 		<div className="Box">
-			<div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
-            <div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
-            <div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
-            <div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
-            <div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
-            <div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
-            <div className="Box-card">
-				<h1>Perfil</h1>
-			</div>
+			<Card/>
 		</div>
 	);
 }

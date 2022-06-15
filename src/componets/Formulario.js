@@ -1,46 +1,25 @@
 import { useState } from 'react';
-import './Formulario.modulo.css';
+import './Componets.css';
+import Card from './Card.js';
 
 function Form() {
 
-	function cadastrarUsuario(e) {
+	function Enviar(e){
 		e.preventDefault();
-		console.log(`Usuário ${name} Senha ${password}`);
+		
 	}
 
-	const [name, setName] = useState('');
-	const [password, setPassaword] = useState('');
-
-	return (
-		<div className="box-forms">
-			<h2>Cadastrar Usuário</h2>
-			<form onSubmit={cadastrarUsuario}>
-				<input
-					className="caixa"
-					type="text"
-					name="name"
-					value={name}
-					placeholder="Digite seu nome..."
-					onChange={(e) => setName(e.target.value)}
-				/>
-
-				<br />
-
-				<input
-					className="caixa"
-					type="password"
-					name="password"
-					value={password}
-					placeholder="Digite sua senha..."
-					onChange={(e) => setPassaword(e.target.value)}
-				/>
-
-				<br />
-
-				<input id="button" type="submit" value='Cadastrar' />
+	return(
+		<div className='.box-forms'>
+			<h1>Cadastro de Usuário</h1>
+			<form>
+				<input type='text' placeholder='Digite o seu nome ...'/>
+				<input type='password' placeholder='Digite a sua senha ...'/>
+				<button type='submit' onClick={Enviar}>Enviar</button>
 			</form>
 		</div>
 	);
-}
+
+};
 
 export default Form;

@@ -1,0 +1,89 @@
+.Card{
+    background-color: rgba(1, 0, 12, 0.781);
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 300px;
+    height: 320px;
+    margin: 10px;
+}
+
+
+.Box{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 600px) {
+	.Box {
+        justify-content:flex-start;
+        flex-wrap: nowrap;
+        height: 350px;
+        display: flexbox;
+        overflow-x: scroll;
+	}
+
+}
+
+.box-forms {
+	background-color: rgba(1, 0, 5, 0.849);
+	font-size: 28px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 60px;
+	display: inline-block;
+	padding: 5px 15px;
+	width: 370px;
+}
+
+form,
+h2 {
+	text-align: center;
+}
+
+.caixa {
+	font-size: 18px;
+	margin-top: 10px;
+	width: 340px;
+	height: 27px;
+	padding: 5px;
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+#button {
+	text-align: center;
+	margin: 25px;
+	width: 130px;
+	height: 40px;
+	font-size: 22px;
+}
+
+#button:hover {
+	transform: scale(1.07);
+	transition: 100ms;
+}
+#button:active {
+	transition: 100ms;
+	border: 1px solid white;
+	background-color: rgb(49, 49, 49);
+	color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+	.box-forms {
+		font-size: 28px;
+		color: white;
+		border: 1px solid white;
+		border-radius: 10px;
+		margin: 15% 0% 0% 0%;
+		display: inline-block;
+		padding: 10px 10px;
+		width: 370px;
+	}
+}
