@@ -1,9 +1,9 @@
 body {
   text-align: center;
-  animation: move-fundo 20s linear infinite alternate;
+  animation: move-fundo 25s linear infinite alternate;
   background-image: url(./assets/fundo.jpg);
   transition-property: url;
-  transition: 5s;
+  transition: 100ms;
   background-size: 180vh;
   background-color:black;
   margin: 0px;
