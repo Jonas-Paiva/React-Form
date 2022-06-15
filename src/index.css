@@ -1,6 +1,11 @@
 body {
   text-align: center;
-  background-color: rgb(20, 22, 29);
+  animation: move-fundo 20s linear infinite alternate;
+  background-image: url(./assets/fundo.jpg);
+  transition-property: url;
+  transition: 1s;
+  background-size: 180vh;
+  background-color:black;
   margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,4 +17,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes move-fundo {
+  0%{
+      background-position: 0 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0 50%;
+  }
+  
 }
