@@ -1,42 +1,58 @@
-.box-forms{
-    font-size: 28px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 60px ;
-    display: inline-block;
-    padding: 5px 15px;
-    width: 370px;
+.box-forms {
+	font-size: 28px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 60px;
+	display: inline-block;
+	padding: 5px 15px;
+	width: 370px;
 }
 
-
-form,h2{
-    text-align: center;
+form,
+h2 {
+	text-align: center;
 }
 
-input{
-    font-size: 18px;
-    margin-top: 10px;
-    width: 340px;
-    height: 27px;
-    padding: 5px;
+.caixa {
+	font-size: 18px;
+	margin-top: 10px;
+	width: 340px;
+	height: 27px;
+	padding: 5px;
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 }
 
-#button{
-    text-align: center;
-    margin: 25px;
-    width: 130px;
-    height: 40px;
-    font-size: 22px;
+#button {
+	text-align: center;
+	margin: 25px;
+	width: 130px;
+	height: 40px;
+	font-size: 22px;
 }
 
-#button:hover{
-    transform: scale(1.07);
-    transition: 100ms;
+#button:hover {
+	transform: scale(1.07);
+	transition: 100ms;
 }
-#button:active{
-    transition: 100ms;
-    border: 1px solid white;
-    background-color: rgb(49, 49, 49);
-    color: aliceblue;
+#button:active {
+	transition: 100ms;
+	border: 1px solid white;
+	background-color: rgb(49, 49, 49);
+	color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+	.box-forms {
+		font-size: 28px;
+		color: white;
+		border: 1px solid white;
+		border-radius: 10px;
+		margin: 15% 0% 0% 0%;
+		display: inline-block;
+		padding: 10px 10px;
+		width: 370px;
+	}
 }
