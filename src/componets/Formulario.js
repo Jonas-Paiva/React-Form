@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './Formulario.modulo.css';
 
 function Form() {
+
 	function cadastrarUsuario(e) {
 		e.preventDefault();
 		console.log(`Usuário ${name} Senha ${password}`);

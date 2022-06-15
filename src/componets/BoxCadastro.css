@@ -1,0 +1,25 @@
+.Box{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Box-card{
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 300px;
+    height: 320px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.Box {
+        justify-content:flex-start;
+        flex-wrap: nowrap;
+        height: 350px;
+        display: flexbox;
+        overflow-x: scroll;
+	}
+
+}
