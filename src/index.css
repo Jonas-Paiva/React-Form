@@ -3,7 +3,7 @@ body {
   animation: move-fundo 20s linear infinite alternate;
   background-image: url(./assets/fundo.jpg);
   transition-property: url;
-  transition: 1s;
+  transition: 5s;
   background-size: 180vh;
   background-color:black;
   margin: 0px;
